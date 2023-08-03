@@ -1,3 +1,31 @@
-html {
-    background: #f8f8f8;
+button {
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f0f0f0;
+    width: 100px;
+}
+
+.map-container {
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+}
+
+.title {
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 30px;
 }
